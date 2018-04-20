@@ -7,12 +7,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>@Model.GetName()</h1>
-      <h1>@Model.GetNumber()</h1>
-      <h1>@Model.GetAddress()</h1>
-
-      <a href='/contacts/new'> Add another contact</a>
-      <a href='/contacts'>View all contacts</a>
+        <h4> Name: @Model.GetName()</h4>
+        <h4> Number: @Model.GetNumber()</h4>
+        <h4>Address: @Model.GetAddress()</h4>
+    <a href='/contacts/new'> Add another contact</a>
+    <a href='/contacts'>View all contacts</a>
     </div>
   </body>
 </html>

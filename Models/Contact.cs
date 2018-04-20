@@ -39,7 +39,7 @@ namespace AddressBookApp.Models
     {
       _number = newNumber;
     }
-    public string GetAddres()
+    public string GetAddress()
     {
       return _address;
     }
