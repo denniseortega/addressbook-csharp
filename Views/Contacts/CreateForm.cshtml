@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Address Book</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href="~/css/styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Address Book</h1>
+        <h3>Add a New Contact<h3>
+          <form action='/contacts' method='post'>
+            <label for='new-contact'>Name</label>
+            <input id='new-contact' name = 'new-contact' type='text'>
+            <br>
+            <label for='new-number'>Phone Number</label>
+            <input id='new-number' name = 'new-number' type='text'>
+            <br>
+            <label for='new-address'>Address</label>
+            <input id='new-address' name = 'new-address' type='text'>
+            <button class="btn btn-primary btn-lg btn-block" type='submit'>Add Contact</button>
+          </form>
+    </div>
+  </body>
+</html>
