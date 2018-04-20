@@ -11,7 +11,7 @@ You may view the details of a contact by clicking on the name, return to homepag
 
 ## Setup/Installation Requirements
 
-* _Web Broswer
+* _Web Browser
 * _.NET
 
 ## Known Bugs
